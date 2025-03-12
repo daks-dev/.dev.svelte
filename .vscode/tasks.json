@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "check",
+      "problemMatcher": [],
+      "label": "npm: check",
+      "detail": "pnpm -r check"
+    },
+    {
+      "type": "npm",
+      "script": "lint",
+      "problemMatcher": [],
+      "label": "lint",
+      "detail": "pnpm lint"
+    },
+    {
+      "type": "npm",
+      "script": "format",
+      "problemMatcher": [],
+      "label": "format",
+      "detail": "pnpm format"
+    },
+    {
+      "type": "npm",
+      "script": "package:recursive",
+      "problemMatcher": [],
+      "label": "package:recursive",
+      "detail": " -r package --filter=./packages/*"
+    },
+    {
+      "type": "npm",
+      "script": "up:recursive",
+      "problemMatcher": [],
+      "label": "up:recursive",
+      "detail": "pnpm -r up"
+    }
+  ]
+}
